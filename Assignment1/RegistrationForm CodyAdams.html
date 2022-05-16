@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+</head>
+<body>
+<form action="/process" method="post"> <!-- Registration Form -->
+    <Div>
+        <h1>Registration Form</h1>
+        <label for="first_name">First Name*</label>
+        <input type="text" name="first_name" placeholder="Your name...">
+    </Div>
+    <Div>
+        <label for="last_name">Last Name*</label>
+        <input type="text" name="last_name" placeholder="Your Last name...">
+    </Div>
+    <Div>
+        <label for="email">Email*</label>
+        <input type="text" name="email" placeholder="Your email...">
+    </Div>
+    <div>
+        <label for="password">Password*</label>
+        <input type="password" name="password">
+    </div>
+    <div>
+        <label for="passowrd">Confirm Password*</label>
+        <input type="password" name="password">
+
+    </div>
+    <div>
+        <label for="birthday">Birthday</label>
+        <input type="date" name="birthday">
+    </div>
+    <div>
+        <p>
+            Gender Identity:* 
+            <input type="radio" id="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female">
+            <label for="female">Female</label>
+            <input type="radio" id="nonbinary">
+            <label for="nonbinary">Non-Binary</label>
+            <input type="radio" id="noanswer">
+            <label for="noanswer">Prefer Not to Answer</label> 
+        </p>
+    </div>
+    <div>
+       <p>A short description about myself</p>
+        <textarea name="selfdescription" cols="30" rows="10" placeholder="Tell us about you..."></textarea>
+    </div>
+    <div>
+        <label for="language">Favorite Language</label>
+        <select name="language" >
+                <option >Javascript</option>
+                <option >Python</option>
+            </select>
+    </div>
+    <div>
+            <input type="checkbox" name="accept" id="accept">
+            <label for="accept">I agree to receive periodic updates</label>
+    </div>
+    <input type="submit" value="Sign Up!">
+</form>
+
+</html>
