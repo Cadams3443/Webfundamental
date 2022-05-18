@@ -16,7 +16,7 @@
     background-color: blue;
     display: inline-block;
     margin-right: 25px;
-    margin-left: 10px;
+    margin-left: 11px;
     vertical-align: top;
 }
 .main {
@@ -32,14 +32,14 @@
     margin-top: 10px;
     margin-left: 10px;
     margin-right: -2px;
-    vertical-align: top;
+    
     display: inline-block;
 }
 #advertisement {
     height: 120px;
     width: 660px;
     background-color: purple;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 10px;
     display: inline-block;
 }
