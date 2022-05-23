@@ -1,0 +1,25 @@
+.usercard{
+    width: 500px;
+    height: 250px;
+    border: 2px solid black;
+  
+}
+
+.usercard_top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.likes{
+    width: 100px;
+    height: 45px;
+    background-color: rgb(222, 178, 64);
+    box-shadow: 2px 2px black;
+    margin-left: 10px;
+}
+
+.usercard_bottom{
+    display: flex;
+    justify-content: center;
+}
